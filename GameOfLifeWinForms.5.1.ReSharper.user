@@ -1,0 +1,321 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellMapUser.cs" caret="1484" fromTop="34" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:XY.cs" caret="245" fromTop="13" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellMap.cs" caret="252" fromTop="11" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:HashCellMap.cs" caret="1543" fromTop="20" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:TouchCellVisitor.cs" caret="50" fromTop="2" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellState.cs" caret="112" fromTop="6" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Cell.cs" caret="0" fromTop="0" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="295" fromTop="1" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:ArrayCellMap.cs" caret="2226" fromTop="12" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Program.cs" caret="425" fromTop="15" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="1572" fromTop="20" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:World.cs" caret="84" fromTop="4" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1019" fromTop="28" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="0" fromTop="0" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="1110" fromTop="35" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:FlowerWorld.cs" caret="1104" fromTop="9" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="460" fromTop="17" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="442" fromTop="17" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1322" fromTop="32" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="785" fromTop="17" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="139" fromTop="6" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="63" fromTop="2" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="1187" fromTop="34" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="1572" fromTop="20" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Program.cs" caret="425" fromTop="15" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="1388" fromTop="35" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="1377" fromTop="33" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="822" fromTop="18" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="472" fromTop="5" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1019" fromTop="28" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="887" fromTop="32" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="218" fromTop="7" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="160" fromTop="7" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:World.cs" caret="84" fromTop="4" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="781" fromTop="16" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="1226" fromTop="26" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="1098" fromTop="33" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="893" fromTop="23" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="88" fromTop="4" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="260" fromTop="11" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="350" fromTop="16" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="221" fromTop="9" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="983" fromTop="28" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="683" fromTop="25" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:FlowerWorld.cs" caret="226" fromTop="9" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:FlowerWorld.cs" caret="1104" fromTop="9" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="522" fromTop="18" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="WorldMapBox" priority="1" />
+      <Item value="private" priority="8" />
+      <Item value="world" priority="5" />
+      <Item value="new" priority="27" />
+      <Item value="graphics" priority="4" />
+      <Item value="Icon" priority="0" />
+      <Item value="Font" priority="1" />
+      <Item value="Brush`0" priority="2" />
+      <Item value="x" priority="21" />
+      <Item value="Brushes`0" priority="1" />
+      <Item value="Color`0" priority="1" />
+      <Item value="timer1" priority="3" />
+      <Item value="public" priority="7" />
+      <Item value="void" priority="3" />
+      <Item value="object" priority="3" />
+      <Item value="StatusBarPanelClickEventArgs`0" priority="0" />
+      <Item value="Cell`0" priority="23" />
+      <Item value="Dead" priority="3" />
+      <Item value="if" priority="13" />
+      <Item value="y" priority="14" />
+      <Item value="cell" priority="10" />
+      <Item value="int" priority="28" />
+      <Item value="CellMap`0" priority="8" />
+      <Item value="this" priority="25" />
+      <Item value="GenerationButton" priority="0" />
+      <Item value="Hashtable`0" priority="2" />
+      <Item value="map2" priority="0" />
+      <Item value="IEnumerable`0" priority="1" />
+      <Item value="map" priority="15" />
+      <Item value="else" priority="5" />
+      <Item value="return" priority="26" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="state" priority="2" />
+      <Item value="TouchCellVisitor`0" priority="2" />
+      <Item value="XY" priority="2" />
+      <Item value="location" priority="3" />
+      <Item value="Live" priority="3" />
+      <Item value="neighbors" priority="4" />
+      <Item value="Hashtable" priority="1" />
+      <Item value="foreach" priority="3" />
+      <Item value="in" priority="3" />
+      <Item value="touchvisitor" priority="1" />
+      <Item value="key" priority="2" />
+      <Item value="XY`0" priority="8" />
+      <Item value="bool" priority="1" />
+      <Item value="xy" priority="3" />
+      <Item value="true" priority="3" />
+      <Item value="false" priority="2" />
+      <Item value="FindBy`0" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="null" priority="2" />
+      <Item value="neighbor" priority="0" />
+      <Item value="check_a_neighbor`0" priority="0" />
+      <Item value="new_cell" priority="0" />
+      <Item value="Point" priority="0" />
+      <Item value="other" priority="1" />
+      <Item value="IList`0" priority="0" />
+      <Item value="IDictionary" priority="1" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="width" priority="0" />
+      <Item value="item_count" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="ctor" priority="3" />
+      <Item value="ValueType`0" priority="4" />
+      <Item value="KeyType`0" priority="2" />
+      <Item value="DictionaryEntry`0" priority="0" />
+      <Item value="where" priority="0" />
+      <Item value="Nullable`0" priority="0" />
+      <Item value="throw" priority="3" />
+      <Item value="KeyNotFoundException" priority="0" />
+      <Item value="x_max" priority="1" />
+      <Item value="y_max" priority="1" />
+      <Item value="hash" priority="0" />
+      <Item value="hashtable" priority="4" />
+      <Item value="NotImplementedException" priority="0" />
+      <Item value="Graphics`0" priority="2" />
+      <Item value="visitor" priority="2" />
+      <Item value="render_map`0" priority="0" />
+      <Item value="RenderCellVisitor" priority="0" />
+      <Item value="KeyNotFoundException`0" priority="0" />
+      <Item value="NotImplementedException`0" priority="0" />
+      <Item value="checkcell" priority="0" />
+      <Item value="Exception" priority="1" />
+      <Item value="CellState`0" priority="0" />
+      <Item value="Array`0" priority="1" />
+      <Item value="array" priority="8" />
+      <Item value="data" priority="1" />
+      <Item value="for" priority="1" />
+      <Item value="i" priority="1" />
+      <Item value="num_dimensions" priority="0" />
+      <Item value="ct" priority="1" />
+      <Item value="GetLowerBound`0" priority="0" />
+      <Item value="GetUpperBound`0" priority="0" />
+      <Item value="GetCell`0" priority="0" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="ArrayCellMap`0" priority="1" />
+      <Item value="DefaultCell`0" priority="1" />
+      <Item value="Console`0" priority="0" />
+      <Item value="Form1`0" priority="1" />
+      <Item value="static" priority="0" />
+      <Item value="MainMenu`0" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="Form1_Load`0" priority="0" />
+      <Item value="ICloneable`0" priority="0" />
+      <Item value="GetLength`0" priority="2" />
+      <Item value="new_array" priority="2" />
+      <Item value="new_map" priority="0" />
+      <Item value="brush" priority="2" />
+      <Item value="Font`0" priority="1" />
+      <Item value="font" priority="1" />
+      <Item value="Bold" priority="0" />
+      <Item value="Form`0" priority="0" />
+      <Item value="decimal" priority="0" />
+      <Item value="ControlStyles`0" priority="4" />
+      <Item value="Pen`0" priority="1" />
+      <Item value="pen" priority="0" />
+      <Item value="Pen" priority="0" />
+      <Item value="LineWorld`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="CreateGraphics`0" priority="0" />
+      <Item value="BorderStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.World">
+      <Item value="setup_map`0" priority="0" />
+      <Item value="render_map`0" priority="2" />
+      <Item value="execute_generation`0" priority="0" />
+      <Item value="x_max" priority="0" />
+      <Item value="y_max" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="DrawIcon`0" priority="0" />
+      <Item value="DrawString`0" priority="0" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="Flush`0" priority="0" />
+      <Item value="DrawRectangle`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Brushes">
+      <Item value="Black" priority="1" />
+      <Item value="Red" priority="0" />
+      <Item value="LightGray" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="White" priority="0" />
+      <Item value="Empty" priority="0" />
+      <Item value="Yellow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Tick" priority="0" />
+      <Item value="Interval" priority="0" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.Cell">
+      <Item value="state" priority="4" />
+      <Item value="neighbors" priority="0" />
+      <Item value="location" priority="2" />
+      <Item value="move_to_next`0" priority="0" />
+      <Item value="last_neighbor_count`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.BorderStyle">
+      <Item value="FixedSingle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Click" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Hashtable">
+      <Item value="Add`0" priority="1" />
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="ContainsKey`0" priority="0" />
+      <Item value="Values" priority="6" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.CellMap">
+      <Item value="getvalues`0" priority="0" />
+      <Item value="GetCell`0" priority="2" />
+      <Item value="generation`0" priority="0" />
+      <Item value="get_count`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.TouchCellVisitor">
+      <Item value="map" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.XY">
+      <Item value="x" priority="5" />
+      <Item value="y" priority="2" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.CellVisitor">
+      <Item value="visit`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="GetEnumerator`0" priority="0" />
+      <Item value="Keys" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.HashCellMap">
+      <Item value="x_max" priority="0" />
+      <Item value="y_max" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.RenderCellVisitor">
+      <Item value="graphics" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GameOfLifeWinForms.CellState">
+      <Item value="Live" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.DefaultCell">
+      <Item value="state" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Array">
+      <Item value="GetLength`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.ArrayCellMap">
+      <Item value="num_dimensions" priority="0" />
+      <Item value="Clone`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.Form1">
+      <Item value="BackColor" priority="0" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Bold" priority="0" />
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Round`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GameOfLifeWinForms.Game_Of_Life">
+      <Item value="Click" priority="0" />
+      <Item value="SetStyle`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.ControlStyles">
+      <Item value="OptimizedDoubleBuffer" priority="1" />
+      <Item value="DoubleBuffer" priority="0" />
+      <Item value="UserPaint" priority="0" />
+      <Item value="AllPaintingInWmPaint" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
