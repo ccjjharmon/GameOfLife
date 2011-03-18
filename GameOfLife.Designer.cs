@@ -36,8 +36,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(910, 530);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GameOfLife";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Conway\'s Game Of Life";
             this.Load += new System.EventHandler(this.GameOfLife_Load);
             this.ResumeLayout(false);

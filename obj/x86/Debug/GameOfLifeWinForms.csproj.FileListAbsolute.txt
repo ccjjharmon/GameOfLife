@@ -7,3 +7,4 @@ C:\ChrisHarmon\projects\vs2010projects\GameOfLifeWinForms\bin\Debug\GameOfLifeWi
 C:\ChrisHarmon\projects\vs2010projects\GameOfLifeWinForms\obj\x86\Debug\GameOfLifeWinForms.exe
 C:\ChrisHarmon\projects\vs2010projects\GameOfLifeWinForms\obj\x86\Debug\GameOfLifeWinForms.pdb
 C:\ChrisHarmon\projects\vs2010projects\GameOfLifeWinForms\obj\x86\Debug\GameOfLifeWinForms.GameOfLife.resources
+C:\ChrisHarmon\projects\vs2010projects\GameOfLifeWinForms\obj\x86\Debug\GameOfLifeWinForms.GameOfLifeSettings.resources

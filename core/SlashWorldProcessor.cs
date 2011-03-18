@@ -1,15 +1,17 @@
 using System.Drawing;
+using GameOfLifeWinForms.application.model;
+using GameOfLifeWinForms.utility;
 
-namespace GameOfLifeWinForms
+namespace GameOfLifeWinForms.core
 {
-    public class SlashWorld : World
+    public class SlashWorldProcessor : WorldProcessor
     {
         CellMap map;
         CellVisitor visitor;
-        private int x_max;
-        private int y_max;
+        public int x_max { get; set; }
+        public int y_max { get; set; }
 
-        public SlashWorld(int x_max, int y_max) 
+        public SlashWorldProcessor(int x_max, int y_max) 
         {
             this.x_max = x_max;
             this.y_max = y_max;
@@ -30,12 +32,12 @@ namespace GameOfLifeWinForms
                     array[x, y] = new DefaultCell(x, y, state);
                 }
 
-            map = new ArrayCellMap(array);
+            map = new DefaultCellMap(array);
         }
 
-        public void execute_generation()
+        public bool next_generation()
         {
-            map.generation();
+            return map.generation();
         }
 
         public void render_map(Graphics graphics)

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace GameOfLifeWinForms
+﻿namespace GameOfLifeWinForms.application.model
 {
-    public class XY : IEquatable<XY>
+    public class XY : System.IEquatable<XY>
     {
         public int x;
         public int y;
@@ -15,7 +13,8 @@ namespace GameOfLifeWinForms
 
         public bool Equals(XY other)
         {
-            return (other.x == this.x && other.y == this.y);
+            return (other.x == x && other.y == y);
         }
+
     }
 }

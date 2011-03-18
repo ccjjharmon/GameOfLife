@@ -46,33 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayCellMap.cs" />
-    <Compile Include="DefaultCell.cs" />
-    <Compile Include="CellMap.cs" />
-    <Compile Include="CellMapUser.cs" />
-    <Compile Include="CellState.cs" />
-    <Compile Include="CellVisitor.cs" />
-    <Compile Include="OddWorld.cs" />
-    <Compile Include="TwoFlowerWorld.cs" />
-    <Compile Include="HashCellMap.cs" />
-    <Compile Include="FindCellVisitor.cs" />
+    <Compile Include="application\model\DefaultCellMap.cs" />
+    <Compile Include="application\model\DefaultCell.cs" />
+    <Compile Include="application\model\CellMap.cs" />
+    <Compile Include="application\model\CellState.cs" />
+    <Compile Include="core\DefaultWorld.cs" />
+    <Compile Include="core\World.cs" />
+    <Compile Include="GameOfLifeSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOfLifeSettings.Designer.cs">
+      <DependentUpon>GameOfLifeSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="utility\CellVisitor.cs" />
+    <Compile Include="core\OddWorldProcessor.cs" />
+    <Compile Include="core\TwoFlowerWorldProcessor.cs" />
     <Compile Include="GameOfLife.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GameOfLife.Designer.cs">
       <DependentUpon>GameOfLife.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cell.cs" />
-    <Compile Include="World.cs" />
+    <Compile Include="application\model\Cell.cs" />
+    <Compile Include="core\WorldProcessor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RenderCellVisitor.cs" />
-    <Compile Include="SlashWorld.cs" />
-    <Compile Include="TouchCellVisitor.cs" />
-    <Compile Include="LineWorld.cs" />
-    <Compile Include="XY.cs" />
+    <Compile Include="utility\RenderCellVisitor.cs" />
+    <Compile Include="core\SlashWorldProcessor.cs" />
+    <Compile Include="utility\TouchCellVisitor.cs" />
+    <Compile Include="core\LineWorldProcessor.cs" />
+    <Compile Include="application\model\XY.cs" />
     <EmbeddedResource Include="GameOfLife.resx">
       <DependentUpon>GameOfLife.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOfLifeSettings.resx">
+      <DependentUpon>GameOfLifeSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +101,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

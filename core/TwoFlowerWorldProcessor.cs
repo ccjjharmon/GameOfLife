@@ -1,16 +1,18 @@
 using System;
 using System.Drawing;
+using GameOfLifeWinForms.application.model;
+using GameOfLifeWinForms.utility;
 
-namespace GameOfLifeWinForms
+namespace GameOfLifeWinForms.core
 {
-    public class OddWorld : World
+    public class TwoFlowerWorldProcessor : WorldProcessor
     {
         CellMap map;
         CellVisitor visitor;
-        private int x_max;
-        private int y_max;
+        public int x_max { get; set; }
+        public int y_max { get; set; }
 
-        public OddWorld(int x_max, int y_max)
+        public TwoFlowerWorldProcessor(int x_max, int y_max) 
         {
             this.x_max = x_max;
             this.y_max = y_max;
@@ -18,26 +20,26 @@ namespace GameOfLifeWinForms
 
         public void setup_map()
         {
-            Random random = new Random();
             Cell[,] array = new Cell[x_max, y_max];
+            Random rnd = new Random();
 
             for (int x = 0; x < x_max; x++)
                 for (int y = 0; y < y_max; y++)
                 {
                     CellState state = CellState.Dead;
-                    if ((x +2 - y) % 4 == random.Next(1,3))
+                    if ((x)%3==rnd.Next(1, 2))
                     {
                         state = CellState.Live;
                     }
                     array[x, y] = new DefaultCell(x, y, state);
                 }
 
-            map = new ArrayCellMap(array);
+            map = new DefaultCellMap(array);
         }
 
-        public void execute_generation()
+        public bool next_generation()
         {
-            map.generation();
+            return map.generation();
         }
 
         public void render_map(Graphics graphics)

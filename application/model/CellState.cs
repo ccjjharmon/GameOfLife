@@ -1,4 +1,4 @@
-﻿namespace GameOfLifeWinForms
+﻿namespace GameOfLifeWinForms.application.model
 {
     public enum CellState
     {

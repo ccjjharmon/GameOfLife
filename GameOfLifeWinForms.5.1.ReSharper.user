@@ -13,51 +13,52 @@
       <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:XY.cs" caret="245" fromTop="13" />
       <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellMap.cs" caret="252" fromTop="11" />
       <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:HashCellMap.cs" caret="1543" fromTop="20" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:TouchCellVisitor.cs" caret="50" fromTop="2" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellState.cs" caret="112" fromTop="6" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Cell.cs" caret="0" fromTop="0" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="295" fromTop="1" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:ArrayCellMap.cs" caret="2226" fromTop="12" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Program.cs" caret="425" fromTop="15" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="1572" fromTop="20" />
       <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:World.cs" caret="84" fromTop="4" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1019" fromTop="28" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="0" fromTop="0" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="1200" fromTop="32" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:ArrayCellMap.cs" caret="776" fromTop="17" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:TouchCellVisitor.cs" caret="287" fromTop="12" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Program.cs" caret="0" fromTop="0" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:GameOfLife.Designer.cs" caret="0" fromTop="0" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Cell.cs" caret="129" fromTop="5" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellState.cs" caret="100" fromTop="5" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:TwoFlowerWorld.cs" caret="260" fromTop="12" />
       <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="1110" fromTop="35" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:FlowerWorld.cs" caret="1104" fromTop="9" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="460" fromTop="17" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:OddWorld.cs" caret="702" fromTop="11" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:GameOfLife.cs" caret="867" fromTop="28" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="360" fromTop="12" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1252" fromTop="21" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="442" fromTop="17" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1322" fromTop="32" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="785" fromTop="17" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="139" fromTop="6" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="63" fromTop="2" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="1187" fromTop="34" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.Designer.cs" caret="1572" fromTop="20" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Program.cs" caret="425" fromTop="15" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="1388" fromTop="35" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="1377" fromTop="33" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="822" fromTop="18" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="472" fromTop="5" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1019" fromTop="28" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="887" fromTop="32" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="218" fromTop="7" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="160" fromTop="7" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:World.cs" caret="84" fromTop="4" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="781" fromTop="16" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:LineWorld.cs" caret="1226" fromTop="26" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="1098" fromTop="33" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="893" fromTop="23" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="88" fromTop="4" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="260" fromTop="11" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="350" fromTop="16" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="221" fromTop="9" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="983" fromTop="28" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="683" fromTop="25" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:FlowerWorld.cs" caret="226" fromTop="9" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:FlowerWorld.cs" caret="1104" fromTop="9" />
-      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:Game_Of_Life.cs" caret="522" fromTop="18" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1398" fromTop="29" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1060" fromTop="18" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1359" fromTop="24" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1608" fromTop="33" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:CellState.cs" caret="101" fromTop="5" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="0" fromTop="0" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="665" fromTop="18" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="772" fromTop="7" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="704" fromTop="6" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="718" fromTop="6" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1346" fromTop="26" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1802" fromTop="7" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="6006" fromTop="7" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:GameOfLife.cs" caret="1172" fromTop="32" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:TwoFlowerWorld.cs" caret="104" fromTop="5" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:TwoFlowerWorld.cs" caret="260" fromTop="12" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:SlashWorld.cs" caret="1136" fromTop="35" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:OddWorld.cs" caret="1186" fromTop="35" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:OddWorld.cs" caret="93" fromTop="4" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:OddWorld.cs" caret="243" fromTop="11" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:GameOfLife.cs" caret="1136" fromTop="34" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:OddWorld.cs" caret="445" fromTop="20" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:OddWorld.cs" caret="702" fromTop="11" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:GameOfLife.cs" caret="867" fromTop="28" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="2129" fromTop="25" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="1779" fromTop="16" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="525" fromTop="21" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:DefaultCell.cs" caret="360" fromTop="12" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="1486" fromTop="23" />
+      <File id="3B31D0C2-4355-43A9-B995-A59ABD38B0CD/f:RenderCellVisitor.cs" caret="338" fromTop="1" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -74,36 +75,36 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="WorldMapBox" priority="1" />
-      <Item value="private" priority="8" />
+      <Item value="private" priority="11" />
       <Item value="world" priority="5" />
-      <Item value="new" priority="27" />
-      <Item value="graphics" priority="4" />
+      <Item value="new" priority="31" />
+      <Item value="graphics" priority="6" />
       <Item value="Icon" priority="0" />
       <Item value="Font" priority="1" />
-      <Item value="Brush`0" priority="2" />
+      <Item value="Brush`0" priority="3" />
       <Item value="x" priority="21" />
-      <Item value="Brushes`0" priority="1" />
+      <Item value="Brushes`0" priority="2" />
       <Item value="Color`0" priority="1" />
       <Item value="timer1" priority="3" />
-      <Item value="public" priority="7" />
+      <Item value="public" priority="10" />
       <Item value="void" priority="3" />
       <Item value="object" priority="3" />
       <Item value="StatusBarPanelClickEventArgs`0" priority="0" />
       <Item value="Cell`0" priority="23" />
       <Item value="Dead" priority="3" />
-      <Item value="if" priority="13" />
-      <Item value="y" priority="14" />
-      <Item value="cell" priority="10" />
-      <Item value="int" priority="28" />
-      <Item value="CellMap`0" priority="8" />
-      <Item value="this" priority="25" />
+      <Item value="if" priority="17" />
+      <Item value="y" priority="16" />
+      <Item value="cell" priority="15" />
+      <Item value="int" priority="32" />
+      <Item value="CellMap`0" priority="11" />
+      <Item value="this" priority="28" />
       <Item value="GenerationButton" priority="0" />
       <Item value="Hashtable`0" priority="2" />
       <Item value="map2" priority="0" />
       <Item value="IEnumerable`0" priority="1" />
       <Item value="map" priority="15" />
-      <Item value="else" priority="5" />
-      <Item value="return" priority="26" />
+      <Item value="else" priority="6" />
+      <Item value="return" priority="28" />
       <Item value="using" priority="0" />
       <Item value="System" priority="0" />
       <Item value="Linq" priority="0" />
@@ -112,17 +113,17 @@
       <Item value="XY" priority="2" />
       <Item value="location" priority="3" />
       <Item value="Live" priority="3" />
-      <Item value="neighbors" priority="4" />
+      <Item value="neighbors" priority="6" />
       <Item value="Hashtable" priority="1" />
       <Item value="foreach" priority="3" />
       <Item value="in" priority="3" />
       <Item value="touchvisitor" priority="1" />
       <Item value="key" priority="2" />
       <Item value="XY`0" priority="8" />
-      <Item value="bool" priority="1" />
+      <Item value="bool" priority="3" />
       <Item value="xy" priority="3" />
       <Item value="true" priority="3" />
-      <Item value="false" priority="2" />
+      <Item value="false" priority="3" />
       <Item value="FindBy`0" priority="0" />
       <Item value="string" priority="0" />
       <Item value="null" priority="2" />
@@ -147,7 +148,7 @@
       <Item value="throw" priority="3" />
       <Item value="KeyNotFoundException" priority="0" />
       <Item value="x_max" priority="1" />
-      <Item value="y_max" priority="1" />
+      <Item value="y_max" priority="2" />
       <Item value="hash" priority="0" />
       <Item value="hashtable" priority="4" />
       <Item value="NotImplementedException" priority="0" />
@@ -159,14 +160,14 @@
       <Item value="NotImplementedException`0" priority="0" />
       <Item value="checkcell" priority="0" />
       <Item value="Exception" priority="1" />
-      <Item value="CellState`0" priority="0" />
+      <Item value="CellState`0" priority="1" />
       <Item value="Array`0" priority="1" />
       <Item value="array" priority="8" />
       <Item value="data" priority="1" />
       <Item value="for" priority="1" />
       <Item value="i" priority="1" />
       <Item value="num_dimensions" priority="0" />
-      <Item value="ct" priority="1" />
+      <Item value="ct" priority="2" />
       <Item value="GetLowerBound`0" priority="0" />
       <Item value="GetUpperBound`0" priority="0" />
       <Item value="GetCell`0" priority="0" />
@@ -175,7 +176,7 @@
       <Item value="DefaultCell`0" priority="1" />
       <Item value="Console`0" priority="0" />
       <Item value="Form1`0" priority="1" />
-      <Item value="static" priority="0" />
+      <Item value="static" priority="1" />
       <Item value="MainMenu`0" priority="0" />
       <Item value="EventArgs`0" priority="0" />
       <Item value="Form1_Load`0" priority="0" />
@@ -183,17 +184,27 @@
       <Item value="GetLength`0" priority="2" />
       <Item value="new_array" priority="2" />
       <Item value="new_map" priority="0" />
-      <Item value="brush" priority="2" />
+      <Item value="brush" priority="3" />
       <Item value="Font`0" priority="1" />
       <Item value="font" priority="1" />
       <Item value="Bold" priority="0" />
       <Item value="Form`0" priority="0" />
       <Item value="decimal" priority="0" />
       <Item value="ControlStyles`0" priority="4" />
-      <Item value="Pen`0" priority="1" />
-      <Item value="pen" priority="0" />
-      <Item value="Pen" priority="0" />
-      <Item value="LineWorld`0" priority="0" />
+      <Item value="Pen`0" priority="3" />
+      <Item value="pen" priority="5" />
+      <Item value="Pen" priority="2" />
+      <Item value="LineWorld`0" priority="1" />
+      <Item value="base" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="hasChanged" priority="0" />
+      <Item value="rndnum" priority="0" />
+      <Item value="Random" priority="1" />
+      <Item value="rnd" priority="0" />
+      <Item value="last_state" priority="0" />
+      <Item value="AlmostDead" priority="0" />
+      <Item value="next_state" priority="0" />
+      <Item value="Random`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
       <Item value="CreateGraphics`0" priority="0" />
@@ -212,11 +223,17 @@
       <Item value="Clear`0" priority="1" />
       <Item value="Flush`0" priority="0" />
       <Item value="DrawRectangle`0" priority="0" />
+      <Item value="FillPie`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Drawing.Brushes">
       <Item value="Black" priority="1" />
-      <Item value="Red" priority="0" />
+      <Item value="Red" priority="1" />
       <Item value="LightGray" priority="0" />
+      <Item value="White" priority="0" />
+      <Item value="MediumAquamarine" priority="0" />
+      <Item value="DarkViolet" priority="0" />
+      <Item value="DimGray" priority="0" />
+      <Item value="OrangeRed" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Drawing.Color">
       <Item value="White" priority="0" />
@@ -229,11 +246,13 @@
       <Item value="Enabled" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GameOfLifeWinForms.Cell">
-      <Item value="state" priority="4" />
+      <Item value="state" priority="6" />
       <Item value="neighbors" priority="0" />
       <Item value="location" priority="2" />
-      <Item value="move_to_next`0" priority="0" />
+      <Item value="move_to_next`0" priority="1" />
       <Item value="last_neighbor_count`0" priority="0" />
+      <Item value="hasChanged`0" priority="0" />
+      <Item value="get_neighbors`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Windows.Forms.BorderStyle">
       <Item value="FixedSingle" priority="0" />
@@ -282,9 +301,11 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@GameOfLifeWinForms.CellState">
       <Item value="Live" priority="0" />
+      <Item value="Dead" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GameOfLifeWinForms.DefaultCell">
-      <Item value="state" priority="3" />
+      <Item value="state" priority="4" />
+      <Item value="map" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Array">
       <Item value="GetLength`0" priority="1" />
@@ -310,12 +331,19 @@
     <ItemStatistics item="Qualified:GameOfLifeWinForms.Game_Of_Life">
       <Item value="Click" priority="0" />
       <Item value="SetStyle`0" priority="4" />
+      <Item value="CreateGraphics`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Windows.Forms.ControlStyles">
       <Item value="OptimizedDoubleBuffer" priority="1" />
       <Item value="DoubleBuffer" priority="0" />
       <Item value="UserPaint" priority="0" />
       <Item value="AllPaintingInWmPaint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Invalidate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="1" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
