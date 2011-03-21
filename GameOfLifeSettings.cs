@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using GameOfLifeWinForms.core;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +16,18 @@ namespace GameOfLifeWinForms
         public GameOfLifeSettings()
         {
             InitializeComponent();
+            BuildControls();
             LoadSettings();
+        }
+
+        private void BuildControls()
+        {
+            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+            var subtypes = assembly.GetTypes().Where(t => t.IsSubclassOf(typeof (WorldProcessor)));
+            foreach(var type in subtypes)
+            {
+                WorldToDisplay.Items.Add(type.Name);
+            }
         }
 
         /// <summary>
@@ -25,9 +37,14 @@ namespace GameOfLifeWinForms
         {
             RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\GameOfLife_ScreenSaver");
             if (key == null)
-                textBox.Text = "500";
-            else
-                textBox.Text = (string)key.GetValue("speed");
+            {
+                TextToDisplay.Text = "500";
+                WorldToDisplay.SelectedIndex = 0;
+            } else
+            {
+                TextToDisplay.Text = (string)key.GetValue("speed");
+                WorldToDisplay.SelectedItem = key.GetValue("type");
+            }
         }
 
         /// <summary>
@@ -38,7 +55,8 @@ namespace GameOfLifeWinForms
             // Create or get existing subkey
             RegistryKey key = Registry.CurrentUser.CreateSubKey("SOFTWARE\\GameOfLife_ScreenSaver");
 
-            key.SetValue("speed", textBox.Text);
+            key.SetValue("speed", TextToDisplay.Text);
+            key.SetValue("type", WorldToDisplay.SelectedItem.ToString());
         }
 
         private void okButton_Click(object sender, EventArgs e)

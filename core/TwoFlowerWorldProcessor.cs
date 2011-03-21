@@ -7,10 +7,6 @@ namespace GameOfLifeWinForms.core
 {
     public class TwoFlowerWorldProcessor : WorldProcessor
     {
-        CellMap map;
-        CellVisitor visitor;
-        public int x_max { get; set; }
-        public int y_max { get; set; }
 
         public TwoFlowerWorldProcessor(int x_max, int y_max) 
         {
@@ -18,7 +14,7 @@ namespace GameOfLifeWinForms.core
             this.y_max = y_max;
         }
 
-        public void setup_map()
+        public override void setup_map()
         {
             Cell[,] array = new Cell[x_max, y_max];
             Random rnd = new Random();
@@ -36,16 +32,5 @@ namespace GameOfLifeWinForms.core
 
             map = new DefaultCellMap(array);
         }
-
-        public bool next_generation()
-        {
-            return map.generation();
-        }
-
-        public void render_map(Graphics graphics)
-        {
-            map.render(graphics);
-        }
-
     }
 }

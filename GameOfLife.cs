@@ -101,16 +101,15 @@ namespace GameOfLifeWinForms
             // Use the string from the Registry if it exists
             RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\GameOfLife_ScreenSaver");
             if (key == null)
+            {
                 speed = 500;
+                processor_type = "LineWorldProcessor";                
+            }
             else
+            {
                 speed = int.Parse((string)key.GetValue("speed"));
-
-            key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\GameOfLife_ScreenSaver");
-            if (key == null)
-                processor_type = "LineWorldProcessor";
-            else
                 processor_type = (string)key.GetValue("type");
-            
+            }
         }
 
         //public void mouse_click(object sender, EventArgs args)
