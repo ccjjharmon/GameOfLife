@@ -12,6 +12,8 @@ namespace GameOfLifeWinForms.core
         protected CellVisitor visitor;
         public int x_max { get; set; }
         public int y_max { get; set; }
+        protected Graphics graphics;
+        protected int square_size;
 
         protected WorldProcessor()
         {
@@ -32,7 +34,9 @@ namespace GameOfLifeWinForms.core
                     array[x, y] = new DefaultCell(x, y, state);
                 }
 
-            map = new DefaultCellMap(array);            
+            map = new DefaultCellMap(array, square_size);
+
+
         }
 
         public bool next_generation()
@@ -40,7 +44,7 @@ namespace GameOfLifeWinForms.core
             return map.generation();
         }
 
-        public void render_map(Graphics graphics)
+        public void render_map()
         {
             map.render(graphics);
         }

@@ -7,10 +7,12 @@ namespace GameOfLifeWinForms.core
     public class SlashWorldProcessor : WorldProcessor
     {
 
-        public SlashWorldProcessor(int x_max, int y_max) 
+        public SlashWorldProcessor(int x_max, int y_max, Graphics graphics, int square_size) 
         {
             this.x_max = x_max;
             this.y_max = y_max;
+            this.graphics = graphics;
+            this.square_size = square_size;
         }
 
         public override void setup_map()
@@ -28,7 +30,9 @@ namespace GameOfLifeWinForms.core
                     array[x, y] = new DefaultCell(x, y, state);
                 }
 
-            map = new DefaultCellMap(array);
+            map = new DefaultCellMap(array, square_size);
+
+
         }
     }
 }

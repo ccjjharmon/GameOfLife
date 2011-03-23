@@ -1,14 +1,14 @@
-using System;
+﻿using System;
 using System.Drawing;
 using GameOfLifeWinForms.application.model;
 using GameOfLifeWinForms.utility;
 
 namespace GameOfLifeWinForms.core
 {
-    public class TwoFlowerWorldProcessor : WorldProcessor
+    public class RandomWorldProcessor : WorldProcessor
     {
 
-        public TwoFlowerWorldProcessor(int x_max, int y_max, Graphics graphics, int square_size)
+        public RandomWorldProcessor(int x_max, int y_max, Graphics graphics, int square_size)
         {
             this.x_max = x_max;
             this.y_max = y_max;
@@ -25,7 +25,7 @@ namespace GameOfLifeWinForms.core
                 for (int y = 0; y < y_max; y++)
                 {
                     CellState state = CellState.Dead;
-                    if ((x)%3==rnd.Next(1, 2))
+                    if (x % rnd.Next(1, 10) == 1 || y / rnd.Next(1,5) == 0 )
                     {
                         state = CellState.Live;
                     }

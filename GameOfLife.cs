@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using GameOfLifeWinForms.core;
 using Microsoft.Win32;
+using GameOfLifeWinForms.utility;
 
 namespace GameOfLifeWinForms
 {
@@ -62,7 +63,6 @@ namespace GameOfLifeWinForms
             previewMode = true;
         }
 
-
         private void GameOfLife_Load(object sender, EventArgs e)
         {
             LoadSettings();
@@ -86,14 +86,17 @@ namespace GameOfLifeWinForms
             this.SetStyle(ControlStyles.DoubleBuffer, true);
             this.SetStyle(ControlStyles.UserPaint, true);
             this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
-            //this.SetStyle(ControlStyles.OptimizedDoubleBuffer,true);
+            this.SetStyle(ControlStyles.OptimizedDoubleBuffer,true);
             this.BackColor = Color.Black;
 
             this.Show();
 
-            //this.Click += mouse_click;
-
-            world = new DefaultWorld(this.CreateGraphics(), Bounds.Width / 8, Bounds.Height / 7, processor_type);
+            int square_size, map_width, map_height;
+            square_size = previewMode ? 2 : 16;
+            map_width = Bounds.Width / square_size;
+            map_height = Bounds.Height / square_size;
+            
+            world = new DefaultWorld(this.CreateGraphics(), square_size, map_width, map_height, processor_type);
         }
 
         private void LoadSettings()
@@ -111,11 +114,6 @@ namespace GameOfLifeWinForms
                 processor_type = (string)key.GetValue("type");
             }
         }
-
-        //public void mouse_click(object sender, EventArgs args)
-        //{
-        //    timer1.Enabled = !timer1.Enabled;
-        //}
 
         public void handle_tick(object sender, EventArgs args)
         {

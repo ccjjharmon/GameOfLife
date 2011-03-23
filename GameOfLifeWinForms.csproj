@@ -50,6 +50,8 @@
     <Compile Include="application\model\DefaultCell.cs" />
     <Compile Include="application\model\CellMap.cs" />
     <Compile Include="application\model\CellState.cs" />
+    <Compile Include="core\GosperGliderGunWorldProcessor.cs" />
+    <Compile Include="core\RandomWorldProcessor.cs" />
     <Compile Include="core\WorldProcessor.cs" />
     <Compile Include="core\DefaultWorld.cs" />
     <Compile Include="core\World.cs" />
@@ -71,6 +73,8 @@
     <Compile Include="application\model\Cell.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utility\ColorAdapter.cs" />
+    <Compile Include="utility\ColorAdapterDictionary.cs" />
     <Compile Include="utility\RenderCellVisitor.cs" />
     <Compile Include="core\SlashWorldProcessor.cs" />
     <Compile Include="utility\TouchCellVisitor.cs" />
