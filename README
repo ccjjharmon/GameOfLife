@@ -1,4 +1,14 @@
-The Rules
+INSTALLATION / REQUIREMENTS
+--------------------------------------------------------
+1. Copy \bin\Debug\GameOfLifeWinForms.exe to %WinDir% folder.
+2. Rename file to "Game Of Life.scr"
+3. Open regedit
+4. Create a "GameOfLife_ScreenSaver" key under HKEY_CURRENT_USER\Software\
+5. Create two String values with these names "speed" and "type".
+6. Using Display, set Screen Saver to "Game Of Life" and click Settings to set the speed and world type (which is stored in the registry).
+
+
+"The Rules" of Conway's Game of Life
 
 For a space that is 'populated':
     Each cell with one or no neighbors dies, as if by loneliness. 
